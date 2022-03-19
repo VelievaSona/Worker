@@ -25,7 +25,7 @@ public class Worker {
                     callback.onDone("Task " + i + " is done");
             } else {
                 if (errorCallback != null)
-                    errorCallback.onError("Error");
+                    errorCallback.onError("Task " + i + " is error");
             }
         }
     }
